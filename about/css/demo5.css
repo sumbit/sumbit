@@ -1,0 +1,128 @@
+.framework{
+	background-image: url(../img/6598a2a2-da3f-40e3-87c2-11903e67f024-7394.png);
+	/*background-color: #269ABC;*/
+	max-width: 640px;
+	height: 1008px;
+	margin: 0px auto;
+}
+#audio_btn {
+	 width: 30px;
+	 height: 30px;
+	background-image: url(../img/4c5ae0b4-9154-46e1-a832-b1f29064e21f-2579.png);
+	 background-size: contain;
+	
+}
+
+.header .rotate {
+	 -webkit-animation: rotating 1.2s linear infinite;
+	 -moz-animation: rotating 1.2s linear infinite;
+	 -o-animation: rotating 1.2s linear infinite;
+	 animation: rotating 1.2s linear infinite ;
+}
+
+ @-webkit-keyframes rotating {
+	 from {
+		-webkit-transform: rotate(0)
+	}
+	to {
+		-webkit-transform: rotate(360deg)
+	}
+	
+}
+
+ @keyframes rotating {
+	 from {
+		transform: rotate(0)
+	}
+	to {
+		transform: rotate(360deg)
+	}
+	
+}
+
+ @-moz-keyframes rotating {
+	 from {
+		-moz-transform: rotate(0)
+	}
+	 to {
+		-moz-transform: rotate(360deg)
+	}
+	
+}
+.framework .header-top a{
+	margin-left: 160px;
+	-webkit-animation: rotating 1.2s linear;
+	 -moz-animation: rotating 1.2s linear;
+	 -o-animation: rotating 1.2s linear;
+	 animation: rotating 1.2s linear ;
+}
+
+ @-webkit-keyframes rotating {
+	 from {
+		-webkit-transform: rotate(0)
+	}
+	to {
+		-webkit-transform: rotate(360deg)
+	}
+}
+ @keyframes rotating {
+	 from {
+		transform: rotate(0)
+	}
+	to {
+		transform: rotate(360deg)
+	}
+	
+}
+
+ @-moz-keyframes rotating {
+	 from {
+		-moz-transform: rotate(0)
+	}
+	 to {
+		-moz-transform: rotate(360deg)
+	}
+	
+}
+.framework .bodyer{
+	height: 540px;
+	width: 640px;
+}
+.img-box{
+	width: 640px;
+	height: 480px;
+	/*background-color: yellow;*/
+	margin: 20px auto;
+}
+
+.img-box ul{
+	margin: 0px;
+	padding: 0px;
+}
+.img-box ul li {
+	list-style: none;
+}
+.img-box ul li img{
+	width: 580px;
+	height: 480px;
+	position: absolute;
+	display: none;
+}
+.number-box ul{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: -80px;
+	left: 360px;
+}
+.number-box ul li{
+	list-style: none;
+	float: left;
+	margin: 10px;
+	padding: 2px 5px;
+}
+
+.framework .footer{
+	width: 100%;
+	margin-top: 60px;
+}
