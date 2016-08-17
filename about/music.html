@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/demo.css" />
+		<script type="text/javascript" src="js/jquery-2.2.2.min.js" ></script>
+		<script type="text/javascript" src="js/touch.js" ></script>
+	</head>
+
+	<body>
+		<div class="col-xs-12">
+				<div class="header">
+					<div id="audio_btn" class="rotate" style="position: absolute; margin-left: 560px;margin-top: 10px;">
+			           <audio loop src="music/爱过了站 - 金池.mp3" id="media" autoplay="" preload=""></audio> 
+		            </div>
+				</div>
+		</div>
+		<iframe class="musics" src="index.html" style="width: 640px; height: 1008px;"></iframe>
+	</body>
+	 <script type="text/javascript">
+		$("#audio_btn").click(function() {
+			$(this).toggleClass("rotate"); //控制音乐图标 自转或暂停
+		})
+		</script>
+</html>

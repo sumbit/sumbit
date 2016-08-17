@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/demo.css" />
+		<script type="text/javascript" src="js/jquery-2.2.2.min.js" ></script>
+		<script type="text/javascript" src="js/touch.js" ></script>
+	</head>
+	<body>
+		<div class="col-xs-12">
+			<div class="framework">
+				<div class="bodyer">
+				    <ul style="list-style: none;padding-left: 270px;">
+				    	<li><a><img src="img/ac5ed0cd-c856-42fb-af0d-a3059547c4b5-5983.png"/></a></li>
+				    	<li><a><img src="img/859cd47d-98ac-4d67-a3e2-e0b31d62b167-1857.png"/></a></li>
+				    	<li><a><img src="img/898c1290-9fa3-49a5-a337-2e660128817f-4628.png"/></a></li>
+				    	<li><a><img src="img/e7efa7f6-6c42-46c8-a045-cd9d32588375-8040.png"/></a></li>
+				    </ul>
+				</div>
+				<div class="footer">
+					<a style="font-size: 30px; padding-left: 240px; color: #000000;">I WANT JOB</a>
+				</div>
+			</div>
+		</div>
+	</body>
+       <script type="text/javascript">
+		$("#audio_btn").click(function() {
+			$(this).toggleClass("rotate"); //控制音乐图标 自转或暂停
+		})
+		$(document).ready(function() {
+			touchFunc(window, "left", left);
+			touchFunc(window, "right", right);
+			touchFunc(window, "top", up);
+			touchFunc(window, "down", down);
+		});
+
+		function left() {
+			location.href = "index.html";
+		}
+
+		function right() {
+			location.href = "index.html";
+		}
+
+		function up() {
+			location.href = "index6.html";
+		}
+
+		function down() {
+			location.href = "index2.html";
+		}
+	</script>
+</html>
